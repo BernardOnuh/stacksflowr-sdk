@@ -1,0 +1,32 @@
+{
+  "name": "@stacksflowr/my-sdk",
+  "version": "1.0.0",
+  "description": "A REST API wrapper SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "sdk",
+    "api",
+    "wrapper",
+    "rest"
+  ],
+  "author": "Your Name <you@email.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@stacksflowr/my-sdk": "^1.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
