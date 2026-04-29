@@ -1,7 +1,7 @@
 node_modules/
 dist/
-.env
 *.log
 .npmrc
 .vercel
 .env*.local
+config.bat

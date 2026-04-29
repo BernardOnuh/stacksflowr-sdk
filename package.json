@@ -1,6 +1,6 @@
 {
   "name": "@stacksflowr/my-sdk",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A REST API wrapper SDK",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,9 @@
   "license": "MIT",
   "dependencies": {
     "@stacksflowr/my-sdk": "^1.0.0",
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
