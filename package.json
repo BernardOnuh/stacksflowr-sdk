@@ -1,6 +1,6 @@
 {
   "name": "@stacksflowr/my-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A REST API wrapper SDK",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
